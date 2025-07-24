@@ -2,9 +2,10 @@
 ;; years ago. The colors reminded me of the colors on a cacao seed.
 ;; Hence the name.
 
-;; Copyright (C) 2025 by Panaman Creel
+;; Copyright (C) 2025 by Panaman Creel 
 
-;; Author: Panaman Creel
+;; Author: Panaman Creel 
+;; modeline correction and color class by RickMMA@github.com
 ;; URL: 
 ;; Package-Version: 
 ;; Package-Commit: 
