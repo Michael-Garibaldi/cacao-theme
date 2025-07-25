@@ -51,18 +51,23 @@
 ;; Basic  Settings
 `(cursor ((t (:background ,colorbg1 :family "Times New Roman Bold 20"))))
 `(header-line ((t (:background ,colorbg2 :foreground ,colorfg1 :box (:line-width -1 :color "chartreuse" :style released-button) :height 0.9 :family "Times New Roman Bold 20"))))
-`(highlight ((t (:background ,colorbg2 :foreground ,colorfg2 :family "Times New Roman Bold 20"))))
+`(highlight ((t (:background "#e65a43" :foreground "#a65a4f" :family "Times New Roman Bold 20"))))
 `(fixed-pitch ((t (:background ,colorbg1 :foreground ,colorfg1 :family "Times New Roman Bold 20"))))
-`(mode-line  ((t (:background  ,colorbg2 :foreground  ,colorfg1 :box 2 :height 1.0 :family "Times New Roman  Book 20"))))
-`(mode-line-buffer-id ((t (:background ,colorbg2 :foreground ,colorfg1 :weight bold :height 0.9 :family "Times New Roman Book 20"))))
+`(mode-line  ((t (:background  "#693c28" :foreground "#f2e4c1" :box 2 :height 1.0 :weight bold :family "Times New Roman  Book 20"))))
+`(mode-line-buffer-id ((t (:background "#a65a4f" :foreground "#f2e4c1" :weight bold :height 0.9 :family "Times New Roman Book 20"))))
 `(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35"))))
 `(mode-line-highlight ((t (:box (:line-width 2 :color ,colorbg2 :style released-button) :family "Times New Roman Book 20 Bold"))))
 ;; Left this colors on purpose so you decide what do you want to todo.
-`(mode-line-inactive ((t (:background "#7f5e42" :foreground ,colorbg2 :weight light :height 105 :family "Terminal"))))
+`(mode-line-inactive ((t (:background "#e7ddc9" :foreground "#7f5e42" :height 105 :weight bold  :family "Times New Roman Book 20 Book"))))
+
+;bg #7f5e42   fg# e7ddc9
+
+
+`(tab-bar ((t (:background "#693c28" :foreground "#f2e4c1"))))
 `(tooltip ((t (:background "#f9f0dd" :foreground "#460a04" :family "Times New Roman Bold 20"))))
 
 ;; Space between the window divider and the buffer.
-`(fringe ((t (:background ,colorbg1))))
+;`(fringe ((t (:background "#693c28"))))
 ))
 
 ;; Org-Mode Settings
