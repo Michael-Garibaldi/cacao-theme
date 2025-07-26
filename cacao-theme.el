@@ -66,6 +66,18 @@
 `(tab-bar ((t (:background "#693c28" :foreground "#f2e4c1"))))
 `(tooltip ((t (:background "#f9f0dd" :foreground "#460a04" :family "Times New Roman Bold 20"))))
 
+
+;; Frame-tabs
+;; If you currently use frame-tabs, (frame-tabs-mode t) this will color the frame tabs to match this theme.
+;; If you don't , just comment out this section
+
+`(frame-tabs-buffer-tab ((t (:background "#693c28" :foreground "#f2e4c1" ))))
+`(frame-tabs-higlight-tab ((t (:background "#dccca3" :foreground "#693c28"))))
+`(frame-tabs-selected-tab ((t (:background "#f2e4c1" :foreground "#693c28"))))
+
+
+
+
 ;; Space between the window divider and the buffer.
 ;`(fringe ((t (:background "#693c28"))))
 ))
