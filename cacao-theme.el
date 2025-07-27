@@ -24,6 +24,14 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
+
+
+;; Colors provided from https://imagecolorpicker.com
+;; An excellent site that allows you to upload a pic and it turns the colors into
+;; css color representations!
+
+
+
 ;; This file is not part of Emacs
 
 ;;; code
@@ -43,7 +51,7 @@
 
  ;; default setting
  `(default ((t ( :background ,colorbg1 :foreground ,colorfg1
-                 :slant normal :weight bold :height 110  :width normal
+                 :slant normal :weight medium :height 112  :width normal
                  :foundry "outline" :family "Liberation Mono 20"))))
 
 ;; prior background is #f9f0dd
@@ -53,6 +61,7 @@
 `(header-line ((t (:background ,colorbg2 :foreground ,colorfg1 :box (:line-width -1 :color "chartreuse" :style released-button) :height 0.9 :family "Times New Roman Bold 20"))))
 `(highlight ((t (:background "#e65a43" :foreground "#a65a4f" :family "Times New Roman Bold 20"))))
 `(fixed-pitch ((t (:background ,colorbg1 :foreground ,colorfg1 :family "Times New Roman Bold 20"))))
+`(minibuffer-prompt ((t (:foreground "#7e4c37" :weight bold))))
 `(mode-line  ((t (:background  "#693c28" :foreground "#f2e4c1" :box 2 :height 1.0 :weight bold :family "Times New Roman  Book 20"))))
 `(mode-line-buffer-id ((t (:background "#a65a4f" :foreground "#f2e4c1" :weight bold :height 0.9 :family "Times New Roman Book 20"))))
 `(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35"))))
@@ -65,6 +74,39 @@
 
 `(tab-bar ((t (:background "#693c28" :foreground "#f2e4c1"))))
 `(tooltip ((t (:background "#f9f0dd" :foreground "#460a04" :family "Times New Roman Bold 20"))))
+`(isearch ((t (:background "#e7ddc9" :foreground "#7f5e42" :weight bold)))) ;; for isearch queries
+`(isearch-fail ((t (:foreground "#8c111b" :weight bold)))) ;; isearch has failed
+
+
+;; Elements within code
+;; built-in-face is for built-in functions
+
+`(font-lock-builtin-face ((t (:foreground "4f4846" :weight bold))))
+`(font-lock-comment-delimiter-face ((t (:foreground "#7e4c37" :slant italic :weight bold)))) ;for /* in most terminals
+`(font-lock-comment-face ((t (:foreground "#7e4c37" :slant italic :family "Times New Roman 20" )))) ;for comments themselves
+`(font-lock-constant-face ((t (:foreground "#d1914a" :weight bold)))) ;; For constants, like "NULL" in C
+`(font-lock-doc-face ((t (:foreground "#d6af7d" :slant italic :family "Times New Roman 20")))) ;; For documentation embedded in code.
+`(font-lock-function-name-face ((t (:foreground "#db6f34")))) ;; name of a function being defined
+`(font-lock-keyword-face ((t (:foreground "#ee7060")))) ;; for a keyword with special syntactic signifigance (i.e "for", "if" in C)
+`(font-lock-keyword-face ((t (:foreground "#a6776c")))) ;; for easily overlooked negation characters
+`(font-lock-preprocessor-face ((t (:foreground "#ade086")))) ;; for preprocessor commands.
+`(font-lock-regexp-grouping-backslash ((t (:foreground "#926150")))) ;;highlights slashes that are part of grouping constructs in Elisp code 
+`(font-lock-regexp-grouping-construct ((t (:foreground "#b1e491")))) ;;for parenthesised exp[ression within a regexp to define capture groups.
+`(font-lock-string-face ((t (:foreground "#962e3c")))) ;;for string constants.
+`(font-lock-type-face ((t (:foreground "#430d0d")))) ;;for names of user-defined data types.
+`(button ((t (:background "#4e0d0d"  :foreground "#e7ddc9" :weight bold)))) ;; for buttons.
+;; font-lock-variable-name-face and font-lock-warning-face don't work with this theme. Commenting out.
+
+;;`(font-lock-variable-name-face ((t: (:foreground "#405311")))) ;; for the name of a variable being defined or declared.
+;;`(font-lock-warning-face ((t: (:foreground "4e0d0d" :weight bold))))
+
+`(lazy-highlight ((t (:background "#eee9d8" :foreground "#4f4846"))))
+`(link ((t (:foreground "#64873f" :weight bold)))) ;;weblinks
+`(link-visited ((t (:foreground "#5c633d")))) ;;links we've already visited
+`(match ((t (:foreground "#77812b"))))
+`(next-error ((t (:foreground "#ec7d6d"))))
+`(query-replace ((t (:background "#e7ddc9" :foreground "#7f5e42" :weight bold))))
+
 
 
 ;; Frame-tabs
@@ -79,9 +121,39 @@
 
 
 ;; Space between the window divider and the buffer.
-;`(fringe ((t (:background "#693c28"))))
+`(fringe ((t (:background "#d6af7d"))))
 ))
 
 ;; Org-Mode Settings
+;; Settings specific for org-mode
+
+`(org-agenda-date-today-face ((t (:foreground "#4c260e"))))
+`(org-agenda-structure-face ((t (:foreground "#7e4c37"))))
+`(org-archived-face ((t (:foreground "#d1914a"))))
+`(org-checkbox-face ((t (:foreground "#4c260e"))))
+`(org-date-face ((t (:foreground "#7f99a6"))))
+`(org-formula-face ((t (:foreground "#7e4c37"))))
+`(org-headline-done-face ((t (:foreground "#4c260e"))))
+`(org-hide-face ((t (:foreground "#eee9d8"))))
+`(org-level-1-face ((t (:foreground "#4c260e"))))
+`(org-level-2-face ((t (:foreground "#7e4c37"))))
+`(org-level-3-face ((t (:foreground "#7f99a6"))))
+`(org-level-4-face ((t (:foreground "#d1914a"))))
+`(org-level-5-face ((t (:foreground "#d6af7d"))))
+`(org-level-6-face ((t (:foreground "#a9bac1"))))
+`(org-level-7-face ((t (:foreground "#75b5e2"))))
+`(org-level-8-face ((t (:foreground "#F68375"))))
+`(org-link-face ((t (:foreground "#81a026" :background "#693c28"))))
+`(org-schedule-face ((t (:foreground "#f0ab8a"))))
+`(org-scheduled-previously-face ((t (:foreground "#e09a88"))))
+`(org-scheduled-today-face ((t (:foreground "#693c28" :weight bold))))
+`(org-special-keyword-face ((t (:foreground "#a45943" :weight bold))))
+`(org-table-face ((t (:foreground "#1e7fbb" :background "#693c28"))))
+`(org-tag-face ((t (:foreground "#ec7562" :background "#693c28"))))
+`(org-time-grid-face ((t (:foreground "#1e7fbb"))))
+`(org-todo-face ((t (:foreground "#4c260e"))))
+`(org-upcoming-deadline-face ((t (:foreground "#fb7362"))))
+`(org-warning-face ((t (:foreground "#c16d54"))))
+
 
 (provide-theme 'cacao)
