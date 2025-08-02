@@ -81,7 +81,7 @@
 ;; Elements within code
 ;; built-in-face is for built-in functions
 
-`(font-lock-builtin-face ((t (:foreground "4f4846" :weight bold))))
+`(font-lock-builtin-face ((t (:foreground "#4f4846" :weight bold))))
 `(font-lock-comment-delimiter-face ((t (:foreground "#7e4c37" :slant italic :weight bold)))) ;for /* in most terminals
 `(font-lock-comment-face ((t (:foreground "#7e4c37" :slant italic :family "Times New Roman 20" )))) ;for comments themselves
 `(font-lock-constant-face ((t (:foreground "#d1914a" :weight bold)))) ;; For constants, like "NULL" in C
@@ -118,6 +118,16 @@
 `(frame-tabs-selected-tab ((t (:background "#f2e4c1" :foreground "#693c28"))))
 
 
+;; toolbar  (where the icons are)
+
+`(tool-bar ((t (:background "#d6af7d"))))
+
+
+;; menu bar (where the "File, Edit, Options"... are)
+
+`(menu-bar-mode t)
+(custom-set-faces
+    `(menu ((nil (:background "#693c28" :foreground "#f2e4c1" :weight bold)))))
 
 
 ;; Space between the window divider and the buffer.
@@ -127,15 +137,29 @@
 ;; Org-Mode Settings
 ;; Settings specific for org-mode
 
+`(org-agenda-calendar-event ((t (:foreground "#4f4846"))))
+`(org-agenda-calendar-sexp ((t: (:foreground "#a75c50"))))
 `(org-agenda-date-today-face ((t (:foreground "#4c260e"))))
+`(org-agenda-date-weekend ((t (:foreground "#ace186"))))
+`(org-agenda-diary ((t (:foreground "#693c28"))))
+`(org-agenda-filter-tags ((t (:foreground "#f18070"))))
+`(org-agenda-restriction-lock ((t (:foreground "#a75c50"))))
 `(org-agenda-structure-face ((t (:foreground "#7e4c37"))))
 `(org-archived-face ((t (:foreground "#d1914a"))))
+`(org-checkbox ((t (:foreground "#4c260e"))))
 `(org-checkbox-face ((t (:foreground "#4c260e"))))
+`(org-checkbox-statistics-done ((t (:foreground "#fd7769"))))
+`(org-date ((t (:foreground "#7f99a6"))))
 `(org-date-face ((t (:foreground "#7f99a6"))))
+`(org-date-selected ((t (:foreground "#f49c7e"))))
+`(org-drawer ((t (:foreground "#a6584f" :weight bold))))
+`(org-ellipsis ((t (:foreground "#72931d"))))
 `(org-formula-face ((t (:foreground "#7e4c37"))))
 `(org-headline-done-face ((t (:foreground "#4c260e"))))
 `(org-hide-face ((t (:foreground "#eee9d8"))))
-`(org-level-1-face ((t (:foreground "#4c260e"))))
+`(org-latex-and-related ((t (:foreground "#a6584f" :weight bold))))
+;;`(org-level-1-face ((t (:foreground "#4c260e"))))
+`(org-level-1-face ((t (:foreground "#3d1e0b"))))
 `(org-level-2-face ((t (:foreground "#7e4c37"))))
 `(org-level-3-face ((t (:foreground "#7f99a6"))))
 `(org-level-4-face ((t (:foreground "#d1914a"))))
@@ -144,12 +168,16 @@
 `(org-level-7-face ((t (:foreground "#75b5e2"))))
 `(org-level-8-face ((t (:foreground "#F68375"))))
 `(org-link-face ((t (:foreground "#81a026" :background "#693c28"))))
+`(org-mode-line-clock-overrun ((t (:foreground "#693c28" :background "#eee9d8" :weight bold))))
+`(org-priority ((t (:forerground "#d8948a"))))
+`(org-sexp-date ((t (:foreground "#a75c50" :background "#eee9d8" :weight bold))))
 `(org-schedule-face ((t (:foreground "#f0ab8a"))))
 `(org-scheduled-previously-face ((t (:foreground "#e09a88"))))
 `(org-scheduled-today-face ((t (:foreground "#693c28" :weight bold))))
 `(org-special-keyword-face ((t (:foreground "#a45943" :weight bold))))
 `(org-table-face ((t (:foreground "#1e7fbb" :background "#693c28"))))
 `(org-tag-face ((t (:foreground "#ec7562" :background "#693c28"))))
+`(org-time-grid ((t (:foreground "#ec7562" :background "#693c28"))))
 `(org-time-grid-face ((t (:foreground "#1e7fbb"))))
 `(org-todo-face ((t (:foreground "#4c260e"))))
 `(org-upcoming-deadline-face ((t (:foreground "#fb7362"))))
