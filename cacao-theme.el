@@ -69,7 +69,7 @@
 ;; Left this colors on purpose so you decide what do you want to todo.
 `(mode-line-inactive ((t (:background "#e7ddc9" :foreground "#7f5e42" :height 105 :weight bold  :family "Times New Roman Book 20 Book"))))
 
-;bg #7f5e42   fg# e7ddc9
+
 
 
 `(tab-bar ((t (:background "#693c28" :foreground "#f2e4c1"))))
@@ -83,7 +83,7 @@
 
 `(font-lock-builtin-face ((t (:foreground "#4f4846" :weight bold))))
 `(font-lock-comment-delimiter-face ((t (:foreground "#7e4c37" :slant italic :weight bold)))) ;for /* in most terminals
-`(font-lock-comment-face ((t (:foreground "#7e4c37" :slant italic :family "Times New Roman 20" )))) ;for comments themselves
+`(font-lock-comment-face ((t (:foreground "#ab5e51" :slant italic :family "Times New Roman 20" )))) ;for comments themselves
 `(font-lock-constant-face ((t (:foreground "#d1914a" :weight bold)))) ;; For constants, like "NULL" in C
 `(font-lock-doc-face ((t (:foreground "#d6af7d" :slant italic :family "Times New Roman 20")))) ;; For documentation embedded in code.
 `(font-lock-function-name-face ((t (:foreground "#db6f34")))) ;; name of a function being defined
@@ -97,9 +97,6 @@
 `(button ((t (:background "#4e0d0d"  :foreground "#e7ddc9" :weight bold)))) ;; for buttons.
 ;; font-lock-variable-name-face and font-lock-warning-face don't work with this theme. Commenting out.
 
-;;`(font-lock-variable-name-face ((t: (:foreground "#405311")))) ;; for the name of a variable being defined or declared.
-;;`(font-lock-warning-face ((t: (:foreground "4e0d0d" :weight bold))))
-
 `(lazy-highlight ((t (:background "#eee9d8" :foreground "#4f4846"))))
 `(link ((t (:foreground "#64873f" :weight bold)))) ;;weblinks
 `(link-visited ((t (:foreground "#5c633d")))) ;;links we've already visited
@@ -107,6 +104,21 @@
 `(next-error ((t (:foreground "#ec7d6d"))))
 `(query-replace ((t (:background "#e7ddc9" :foreground "#7f5e42" :weight bold))))
 
+
+;; eshell prompts
+
+`(eshell-ls-archive ((t (:foreground "#59301a"))))
+`(eshell-ls-backup ((t (:foreground "#f27668"))))
+`(eshell-ls-clutter ((t (:foreground "#df715d" :weight bold))))
+`(eshell-ls-directory ((t (:foreground "#a37369" :weight bold))))
+`(eshell-ls-executable ((t (:foreground "#728424" :weight bold))))
+`(eshell-ls-missing ((t (:foreground "#f57a6c" :weight bold))))
+`(eshell-ls-product ((t (:foreground "#c9705a" :weight bold))))
+`(eshell-prompt ((t (:foreground "#4f4846" :weight bold ))))
+`(eshell-ls-readonly ((t (:foreground "#f27668" :weight bold))))
+`(eshell-ls-special ((t (:foreground "#f7a53c" :weight bold))))
+`(eshell-ls-symlink ((t (:foreground "#f4a180"))))
+`(eshell-ls-unreadable ((t (:foreground "#fd8c81"))))
 
 
 ;; Frame-tabs
@@ -125,11 +137,6 @@
 
 ;; menu bar (where the "File, Edit, Options"... are)
 
-`(menu-bar-mode t)
-(custom-set-faces
-    `(menu ((nil (:background "#693c28" :foreground "#f2e4c1" :weight bold)))))
-
-
 ;; Space between the window divider and the buffer.
 `(fringe ((t (:background "#d6af7d"))))
 ))
@@ -142,6 +149,7 @@
 `(org-agenda-date-today-face ((t (:foreground "#4c260e"))))
 `(org-agenda-date-weekend ((t (:foreground "#ace186"))))
 `(org-agenda-diary ((t (:foreground "#693c28"))))
+`(org-emphasis-alist (tt (:foreground "#683e2a" )))
 `(org-agenda-filter-tags ((t (:foreground "#f18070"))))
 `(org-agenda-restriction-lock ((t (:foreground "#a75c50"))))
 `(org-agenda-structure-face ((t (:foreground "#7e4c37"))))
