@@ -19,7 +19,7 @@ I saw that and thought the color scheme would look **great** as an emacs theme.
 
 This is very much a work in progress at this time.  Currently it looks like:
 
-![This image shows dired, tab-mode on, org-mode and the buffer in action.](https://github.com/Michael-Garibaldi/Cacao-theme/blob/main/caco-theme_update080925.png).
+![This image shows dired, tab-mode on, org-mode and the buffer in action.](https://github.com/Michael-Garibaldi/Cacao-theme/blob/main/cacao-theme-update081025.png).
 
 **To install**
 
