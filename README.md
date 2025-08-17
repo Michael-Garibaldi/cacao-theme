@@ -19,7 +19,7 @@ I saw that and thought the color scheme would look **great** as an emacs theme.
 
 This is very much a work in progress at this time.  Currently it looks like:
 
-![This image shows dired, tab-mode on, org-mode and the buffer in action.](https://github.com/Michael-Garibaldi/Cacao-theme/blob/main/cacao_theme_updated_08162025.png).
+![This image shows dired, tab-mode on, org-mode , elfeed and the buffer in action.](https://github.com/Michael-Garibaldi/Cacao-theme/blob/main/cacao_theme_updated_08172025.png).
 
 (Yes the "Emacs" logo is a custom one that **DOES NOT** come with this theme.  It's from the TRON theme from a long time ago ).
 
