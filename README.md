@@ -35,6 +35,12 @@ Currently the theme covers
 
 Coding is pretty much covered by the theme as well , but not directly.
 
+
+**BUG ALERT**
+
+There was a bug in the prior version that caused org-mode tables to not align properly.  There is a fix in the code (partially).  The other portion is a code snippet that must be added into your emacs init file. Please check ![the wiki for the code sippet](https://github.com/Michael-Garibaldi/Cacao-theme/wiki/Known-bug-and-it's-fix) and add it in so that you will be able to work with org-mode tables without issue.
+
+
 **To install**
 
 Download the .el file and install it in your theme directory. 
