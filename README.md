@@ -1,7 +1,7 @@
 **Cacao Theme for Emacs**
 
 
-_**COMING SOON TO MELPA!!/**_
+_**I'm on MELPA!!/**_
 
 
 This is a theme I created with assistance from [RickMMA](https://github.com/RickMMA) It came about while I was working at my last tech support job.
@@ -47,6 +47,8 @@ There was a bug in the prior version that caused org-mode tables to not align pr
 
 **To install**
 
+**FROM GITHUB**
+
 Download the .el file and install it in your theme directory. 
 
 **WINDOWS INSTALLATION**
@@ -69,6 +71,11 @@ Copy this file to that directory, Emacs should show it immediately after you acc
 the "*Custom-Themes*" buffer.  Just click on it and run it after that. It's one file only.
 
 
+
+
+**FROM MELPA**
+
+Download from Melpa and enjoy!!   
 
 This theme was written in Emacs 29.1 , therefore it will definitely work in 29.1. I'm unsure if it will work in earlier versions, but it's pretty simplistic.
 
