@@ -1,3 +1,11 @@
+![GitHub License](https://github.com/Michael-Garibaldi/cacao-theme/License)
+![GitHub branch status](https://github.com/Michael-Garibaldi/cacao-theme/main)
+![GitHub top language](https://github.com/Michael-Garibaldi/cacao-theme/cacao-theme)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/emacs%3Acacao-theme.svg)](https://repology.org/project/emacs%3Acacao-theme/versions)
+
+
+
+
 **Cacao Theme for Emacs**
 
 
