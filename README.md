@@ -1,7 +1,7 @@
 **Cacao Theme for Emacs**
 
 
-** COMING SOON TO MELPA!! **
+_**COMING SOON TO MELPA!!/**_
 
 
 This is a theme I created with assistance from [RickMMA](https://github.com/RickMMA) It came about while I was working at my last tech support job.
