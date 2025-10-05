@@ -1,5 +1,9 @@
 **Cacao Theme for Emacs**
 
+
+** COMING SOON TO MELPA!! **
+
+
 This is a theme I created with assistance from [RickMMA](https://github.com/RickMMA) It came about while I was working at my last tech support job.
 I had a client send me an image of their television. 
 
@@ -21,7 +25,7 @@ This is very much a work in progress at this time.  Currently it looks like:
 
 ![This image shows dired, tab-mode on, org-mode , elfeed and the buffer in action.](https://github.com/Michael-Garibaldi/cacao-theme/blob/main/Cacao-Theme_Screenshot.jpg).
 
-(Yes the "Emacs" logo is a custom one that **DOES NOT** come with this theme, by default, but it CAN be added in as it's in this github ).
+(Yes the "Emacs" logo is a custom one that **DOES NOT** come with this theme, by default, but it CAN be added in as it's in this github.  To add it in, check [this entry in the wiki](https://github.com/Michael-Garibaldi/cacao-theme/wiki/Adding-the-custom-Splash-screen-icon)).
 
 
 **WHAT IS THEMED**
