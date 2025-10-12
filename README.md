@@ -1,6 +1,6 @@
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/emacs%3Acacao-theme.svg)](https://repology.org/project/emacs%3Acacao-theme/versions)
-
+[![MELPA](https://melpa.org/packages/cacao-theme-badge.svg)](https://melpa.org/#/cacao-theme)
 
 
 
