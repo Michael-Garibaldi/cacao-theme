@@ -33,7 +33,7 @@
  'cacao-dark
 
  ;; default setting
- `(default ((t ( :background "#180d08" :foreground  "#693c28"
+ `(default ((t ( :background "#180d08" :foreground  "fb8b54"
                  :slant normal :weight medium :height 112  :width normal
                  :foundry "outline" :family "Times New Roman Bold 20"))))
 
