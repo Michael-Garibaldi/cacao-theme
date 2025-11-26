@@ -47,12 +47,24 @@
 `(isearch ((t (:background "#f5b49c" :foreground "#170a06" :weight bold))))
 `(isearch-fail ((t ( :foreground "#f22200" :weight bold))))
 `(minibuffer-prompt ((t (:foreground  "#da4c00" :weight bold))))
-`(mode-line ((t (:background "#2c0a09" :foreground "#bb3103" :box 2 :height 1.0 :weight bold :family "Times New Roman Book 20"))))
+`(mode-line ((nil (:background "#2c0a09" :foreground "#bb3103" :box 2 :height 1.0 :weight bold :family "Times New Roman Book 20"))))
 `(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35"))))
 `(mode-line-highlight ((t (:box (:line-width 2 :color "#ff8845" :style released-button):family "Times New Roman Book 20"))))
 `(mode-line-inactive ((t ((:background "#eba897" :background "#eb6938" :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 bold")))))
 `(tab-bar ((t (:backgrond "#ff8845" :foreground "d171f2d"))))
 `(tooltip ((t (:background "#f5b49c" :foreground "#76351c" :family "Times New Roman Bold 20"))))
+
+
+;; elements within code
+;;built-in-face is for built-in functions
+
+`(font-lock-builtin-face ((t (:foreground "#581000" :weight bold))))
+`(font-lock-comment-delimiter-face ((t (:foreground "#a82c03"  ))))
+`(font-lock-comment-face ((t (:foreground "#cf6f4f" :slat italic :family "Times New Roman Bold 20"))))
+`(font-lock-doc-face ((t ("#c2461c" :weight bold :family "Times New Roman 20"))))
+`(font-lock-function-name-face ((t (:foreground "#a82c03"))))
+`(font-lock-keyword-face ((t (:foreground "#bb3103"))))
+
 
 
 ;;frame-tab
