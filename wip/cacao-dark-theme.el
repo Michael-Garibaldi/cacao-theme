@@ -37,12 +37,28 @@
                  :slant normal :weight medium :height 112  :width normal
                  :foundry "outline" :family "Times New Roman Bold 20"))))
 
- `(fixed-pitch ((t (:height 100 :family "DejaVu Sans Mono Bold" :foreground "#fb8b54" :weight bold)))))
+ `(fixed-pitch ((t (:height 100 :family "DejaVu Sans Mono Bold" :foreground "#fb8b54" :weight bold))))) 
+
+
+;; Basic Settings
+`(cursor ((t (:background "#ff8845" :family "Times New Roman Bold 20"))))
+`(header-line ((t (background "#4a1e1a" :foreground "#d17f2d" :box (:line-width -1 :color "#ddb194" :style release-button) :height 0.9 :family "Times New Roman Bold 20")))) ; literally the header line above package-install.
+`(highight ((t (:background "#ddb194"  :foreground "#847973" :family "Times New Roman BOld 20"))))
+`(minibuffer-prompt ((t (:foreground  "#da4c00" :weight bold))))
+`(mode-line ((t (:background "#2c0a09" :foreground "#bb3103" :box 2 :height 1.0 :weight bold :family "Times New Roman Book 20"))))
+`(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35"))))
+`(mode-line-highlight ((t (:box (:line-width 2 :color "#ff8845" :style released-button):family "Times New Roman Book 20"))))
+`(mode-line-inactive ((t ((:background "#eba897" :background "#eb6938" :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 bold")))))
+
 
 
 ;;frame-tab
-`(frame-tabs-buffer ((t (:background "#180d08" :foreground "#FD9723"))))
-`(frame-tabs-highlight-tab ((t (:background"#f57c00"  :foreground "#e180d08"))))
+`(frame-tabs-buffer-tab ((t (:box (:line-width 2 :color "#ff8845" (:background "#180d08" :foreground "#d17f2d"))))))
+`(frame-tabs-highlight-tab ((t (:background "#fa7911" :foreground "#ff8845"))))
+`(frame-tabs-selected-tab ((t (:background "#180d08" :foreground "#ea9e3e"))))
+
+;;`(frame-tabs-selected-tab ((t (:background "#180d08" :foreground "#fd9723"))))
+
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
