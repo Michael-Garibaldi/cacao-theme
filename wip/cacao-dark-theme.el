@@ -44,12 +44,15 @@
 `(cursor ((t (:background "#ff8845" :family "Times New Roman Bold 20"))))
 `(header-line ((t (background "#4a1e1a" :foreground "#d17f2d" :box (:line-width -1 :color "#ddb194" :style release-button) :height 0.9 :family "Times New Roman Bold 20")))) ; literally the header line above package-install.
 `(highight ((t (:background "#ddb194"  :foreground "#847973" :family "Times New Roman BOld 20"))))
+`(isearch ((t (:background "#f5b49c" :foreground "#170a06" :weight bold))))
+`(isearch-fail ((t ( :foreground "#f22200" :weight bold))))
 `(minibuffer-prompt ((t (:foreground  "#da4c00" :weight bold))))
 `(mode-line ((t (:background "#2c0a09" :foreground "#bb3103" :box 2 :height 1.0 :weight bold :family "Times New Roman Book 20"))))
 `(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35"))))
 `(mode-line-highlight ((t (:box (:line-width 2 :color "#ff8845" :style released-button):family "Times New Roman Book 20"))))
 `(mode-line-inactive ((t ((:background "#eba897" :background "#eb6938" :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 bold")))))
-
+`(tab-bar ((t (:backgrond "#ff8845" :foreground "d171f2d"))))
+`(tooltip ((t (:background "#f5b49c" :foreground "#76351c" :family "Times New Roman Bold 20"))))
 
 
 ;;frame-tab
