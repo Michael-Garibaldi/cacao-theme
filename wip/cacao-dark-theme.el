@@ -33,21 +33,23 @@
                  :slant normal :weight medium :height 112  :width normal
                  :foundry "outline" :family "Times New Roman Bold 20"))))
 
- `(fixed-pitch ((t (:height 100 :family "DejaVu Sans Mono Bold" :foreground "#fb8b54" :weight bold))))) 
+ `(fixed-pitch ((t (:height 100 :family "DejaVu Sans Mono Bold" :foreground "#d17f2d" :weight bold))))) 
 
 
 ;; Basic Settings
 `(cursor ((t (:background "#ff8845" :family "Times New Roman Bold 20"))))
 `(header-line ((t (:background "#4a1e1a" :foreground "#d17f2d" :box (:line-width -1 :color "#ddb194" :style release-button) :height 0.9 :family "Times New Roman Bold 20")))) 
-`(highight ((t (:background "#ddb194"  :foreground "#847973" :family "Times New Roman BOld 20"))))
+(custom-set-faces
+`(highight ((t (:background "#cc7d30"  :foreground "#2c0a09" :family "Times New Roman bold 20") :inherit nil))))
 `(isearch ((t (:background "#f5b49c" :foreground "#170a06" :weight bold))))
 `(isearch-fail ((t ( :foreground "#f22200" :weight bold))))
 `(minibuffer-prompt ((t (:foreground  "#da4c00" :weight bold))))
-`(mode-line ((t (:background "#2c0a09" :foreground "#bb3103" :box 2 :height 1.0 :weight bold :family "Times New Roman Book 20"))))
-`(mode-line-active ((t (:background "#2c0a09" :foreground "bb3103" :box 2 :height 1.0  :weight bold :family "Times New Roman Book 20"))))
-`(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35"))))
-`(mode-line-highlight ((t (:box (:line-width 2 :color "#ff8845" :style released-button):family "Times New Roman Book 20 Bold"))))
-`(mode-line-inactive ((t ((:background "#eba897" :foreground "#eb6938" :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 bold")))))
+(custom-set-faces
+`(mode-line ((t (:background "#2c0a09" :foreground "#bb3103" :box 2 :height 1.0 :weight bold :family "Times New Roman Book 20" :inherit nil))))
+`(mode-line-active ((t (:background "#2c0a09" :foreground "#e5a763" :box 2 :height 1.0  :weight bold :family "Times New Roman Book 20" :inherit nil))))
+`(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35" :inherit nil))))
+`(mode-line-highlight ((t (:box (:line-width 2 :color "#cc7d30" :style released-button):family "Times New Roman Book 20 Bold" :inherit nil))))
+`(mode-line-inactive ((t ((:background "#2c0a09" :foreground "#bb3103" :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 " :inherit nil))))))
 `(tab-bar ((t (:background "#ff8845" :foreground "d171f2d"))))
 `(tooltip ((t (:background "#f5b49c" :foreground "#76351c" :family "Times New Roman Bold 20"))))
 
@@ -94,11 +96,17 @@
 
 ;;experimential code to combat frame-tabs :inherit tabs
 
+;;(custom-set-faces
+ ;; Override the 'font-lock-comment-face'
+;; '(font-lock-comment-face ((t (:foreground "gray" :background nil :inherit nil))))
 
-;;`(frame-tabs ((nil (:box (:line-width 2 :color "#ff8845") (:background "#180d08" :foreground "#d17f2d" )))))
-`(frame-tabs-buffer-tab ((t (:background "#180508" :foreground "#d17f2d" ))))
-`(frame-tabs-highlight-tab ((t (:background "#fa7911" :foreground "#ff8845"))))
-`(frame-tabs-selected-tab ((t (:box (:line-width 2  :color "#ff8845" (:background "#180d08" :foreground "#ea9e3e"))))))
+
+
+
+(custom-set-faces 
+`(frame-tabs-buffer-tab ((t (:background "#180508" :foreground "#d17f2d" :inherit nil ))))
+`(frame-tabs-highlight-tab ((t (:background "#fa7911" :foreground "#ff8845" :inherit nil ))))
+`(frame-tabs-selected-tab ((t (:box (:line-width 2  :color "#ff8845" (:background "#180d08" :foreground "#ea9e3e" :inherit nil )))))))
 
 
 ;;`(frame-tabs-selected-tab ((t (:background "#180d08" :foreground "#fd9723"))))
