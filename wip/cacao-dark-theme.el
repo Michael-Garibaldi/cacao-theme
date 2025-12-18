@@ -29,11 +29,13 @@
 
  
  ;; default setting
- `(default ((t ( :background "#3a120a" :foreground  "#e5a763"
+ `(default ((t ( :background "#2c0c01" :foreground  "#e5a763"
                  :slant normal :weight medium :height 112  :width normal
                  :foundry "outline" :family "Times New Roman Bold 20"))))
 
  `(fixed-pitch ((t (:height 100 :family "DejaVu Sans Mono Bold" :foreground "#d17f2d" :weight bold))))) 
+
+
 
 
 ;; Basic Settings
@@ -49,7 +51,7 @@
 `(mode-line-active ((t (:background "#2c0a09" :foreground "#e5a763" :box 2 :height 1.0  :weight bold :family "Times New Roman Book 20" :inherit nil))))
 `(mode-line-emphasis ((t (:weight bold :family "Times New Roman Book 35" :inherit nil))))
 `(mode-line-highlight ((t (:box (:line-width 2 :color "#cc7d30" :style released-button):family "Times New Roman Book 20 Bold" :inherit nil))))
-`(mode-line-inactive ((t ((:background "#2c0a09" :foreground "#bb3103" :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 " :inherit nil))))))
+`(mode-line-inactive ((t ((:background "#2c0a09" :foreground "#bb3103" :inherit nil :box (:line-width 8 :color "#eb6938") :family "Times New Roman Book 20 "))))))
 `(tab-bar ((t (:background "#ff8845" :foreground "d171f2d"))))
 `(tooltip ((t (:background "#f5b49c" :foreground "#76351c" :family "Times New Roman Bold 20"))))
 
