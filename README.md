@@ -60,7 +60,7 @@ Download the .el file and install it in your theme directory.
 **WINDOWS INSTALLATION**
 
 For  Windows you can search an for an existing theme by using explorer and search for
-**themename-theme** and which ever directory shows up (for windows 11, the directory I show is **C:\Program Files\Emacs\emacs-29.1\share\emacs\29.1\etc\themes**.
+**themename-theme** and which ever directory shows up (for windows 10 / 11, the directory I show is **C:\Program Files\Emacs\emacs-29.1\share\emacs\29.1\etc\themes**.
 
 Copy this theme into that directory and it should show up immediataely when
 you access the "*Custom-Themes*" buffer.  Just click and run after that, it's one
