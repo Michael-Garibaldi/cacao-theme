@@ -3,8 +3,13 @@
 
 
 
-**Cacao Theme for Emacs**
+**Cacao Theme for Emacs,Version 1.2**
 
+
+**RECENT UPDATES: **
+
+**highlight color:**  Updated because the original one didn't show text as well in Dired or Ctrl-F mode, especially with Helm or other auutocomplete modes active.
+                      Updated May 11, 2026
 
 
 
