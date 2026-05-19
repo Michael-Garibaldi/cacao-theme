@@ -3,7 +3,7 @@
 ;; Author: Panaman Creel 
 ;; Modeline correction and color class by RickMMA@github.com
 ;; URL: https://github.com/Michael-Garibaldi/cacao-theme
-;; Version: 1
+;; Version: 1.2
 ;; UPdated 05/13/2026
 ;; Package-Requires ((emacs "24.1"))
 
