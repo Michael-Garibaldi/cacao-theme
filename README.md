@@ -1,6 +1,7 @@
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/emacs%3Acacao-theme.svg)](https://repology.org/project/emacs%3Acacao-theme/versions)
 
+[![Melpa status](https://www.melpa.org/favicon.ico)[MEPLA Status]](https://www.melpa.org/#/?q=cacao)
 
 
 **Cacao Theme for Emacs,Version 1.2**
